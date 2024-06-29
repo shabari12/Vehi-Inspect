@@ -1,0 +1,61 @@
+.generate-pdf-button {
+  display: block;
+  width: 200px; /* Set a fixed width or use a percentage */
+  padding: 10px;
+  margin: 20px auto 0; /* Center the button horizontally and add top margin */
+  background-color: #fcdd11;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.generate-pdf-button:hover {
+  background-color: #e5c20e;
+}
+
+.records-container {
+  padding: 20px;
+  background-color: white;
+}
+
+.records-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.records-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.record-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.record-card h2 {
+  margin-bottom: 10px;
+}
+
+.record-details {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.record-item {
+  margin-bottom: 10px;
+}
+
+.record-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}

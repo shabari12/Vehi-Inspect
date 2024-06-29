@@ -1,0 +1,56 @@
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    position: relative; /* Relative positioning for overlay */
+    background-image: url('../../assets/bg6.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .success-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Mild black overlay */
+    z-index: 1; /* Overlay above the background image */
+  }
+  
+  .success-container h1 {
+    font-size: 3em;
+    color: white; /* Text color */
+    margin-bottom: 20px;
+    z-index: 2; /* Text above the overlay */
+    position: relative; /* Ensure text is above the overlay */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners for the background */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color: #ffcd11;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #e0b800;
+  }
+  

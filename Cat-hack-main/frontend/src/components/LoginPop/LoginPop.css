@@ -1,0 +1,83 @@
+.login-popup {
+    position: fixed; /* Fixed position to cover the viewport */
+    z-index: 9999; /* Ensure it's above other content */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.login-popup-title img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-inp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inp input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-popup-container button {
+    border: none;
+    padding: 10px 20px; /* Adjust padding to reduce width */
+    border-radius: 4px;
+    color: black;
+    
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%; /* Ensure button takes full width */
+    text-align: center; /* Center text within the button */
+    display: flex; /* Flexbox to center text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+}
+
+.login-popup-condition {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-popup-condition input {
+    margin-top: 5px;
+}
+
+.login-popup p span {
+    color: #ffcd11;
+    font-weight: 500;
+    cursor: pointer;
+}

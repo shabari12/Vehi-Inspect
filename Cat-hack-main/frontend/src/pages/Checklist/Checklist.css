@@ -1,0 +1,79 @@
+.checklist-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: none; /* Remove box shadow */
+}
+
+.start-button, .submit-button {
+  background-color: #ffcd11;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block; /* Ensure buttons take full width */
+  margin: 0 auto; /* Center the buttons */
+}
+
+.status-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.webcam-feed {
+  margin-top: 20px;
+  text-align: center; /* Center webcam feed */
+}
+
+.webcam-feed img {
+  max-width: 50%; /* Ensure webcam image is responsive */
+  max-height: 200px; /* Set maximum height for webcam image */
+}
+
+.question-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.question-card p {
+  margin: 5px 0;
+}
+
+.question-card label {
+  display: block; /* Ensure labels take up full width */
+  margin-bottom: 5px;
+}
+
+.question-card label input[type="radio"] {
+  margin-right: 5px; /* Adjust spacing between radio button and label text */
+}
+
+.image-upload {
+  margin-top: 10px;
+}
+
+.uploaded-image {
+  max-width: 30%;
+  max-height: 10%;
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: #ffcd11;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+}

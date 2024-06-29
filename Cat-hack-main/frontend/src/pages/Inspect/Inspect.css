@@ -1,0 +1,78 @@
+
+.inspect-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff; /* Set background color to white */
+  
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1 1 calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+.signature-pad {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.signature-pad {
+  height: 100px;
+}
+
+.signature-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcd11;
+  color: #000; /* Text color changed to black */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f0bb00; /* Darken the background color on hover */
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+  font-size: 12px;
+}
+
+.submit-btn {
+  flex: 1 1 100%; /* Make the Submit button full width */
+  margin-top: 20px; /* Add space between the form and Submit button */
+}
